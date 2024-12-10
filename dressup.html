@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ka" >
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="icon.svg" />
+    <link rel="stylesheet" href="dressup.css" />
+    <title>პროდუქტების ფილტრი </title>
+</head>
+<body>
+    <header> 
+        <h1>dress up</h1>
+    </header>
+    <main>
+        <form action="https://dressup.ge/en/74-women" >
+            <label>კატეგორია:</label><br/>
+            <input type="radio" id="kk" name="gender" value="famale"/>
+            <label for="kk">ქალები</label> <br/>
+            <input type="radio" id="mm" name="gender" value="male" />
+            <label for="mm">კაცები</label> <br/>
+            <input type="radio" id="cc" name="gender" value="unisex" />
+            <label for="cc">ბავშვები</label><br/><br/>
+            <label>ბრენდები:</label> <br/>
+            <input type="checkbox" id="ss" name="brand" value="calvin-klein" />
+            <label for="ss">Calvin Klein</label> <br/>
+            <input type="checkbox" id="ff" name="brand" value="nike" /> 
+            <label for="ff">Nike</label><br/>
+            <input type="checkbox" id="xx" name="brand" value="adidas" />
+            <label for="xx">Adidas</label><br/><br/>
+             
+            <label for="gg">წელის ზომა:</label><br/>
+            <select name="waist-size" id="gg">
+                <option>.</option>
+                <option value="23">23 </option>
+                <option value="24">24 </option>
+                <option value="25">25 </option>
+                <option value="26">26 </option>
+                <option value="27">27 </option>
+                <option value="28">28 </option>
+            </select><br/><br/>
+            
+            <label for="zz">მოსაზრება:</label><br/>
+            <select name="season" id="zz">
+                <option>.</option>
+                <option value="">ყველა სეზონი</option>
+                <option value="fall-winter">ზამთარი</option>
+                <option value="spring-summer">ზაფხული</option>
+            </select>
+            
+            <br/><br/>
+            <input type="submit" value="ძებნა"/>
+        </form>
+    </main>
+</body>
+</html>
